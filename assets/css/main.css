@@ -29,7 +29,7 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1; }
-  
+
 /* Style the banner container */
 header.banner {
   position: relative;
@@ -40,10 +40,10 @@ header.banner {
 
 /* Style the banner image */
 header.banner img {
-  width: 100%;
+  width: 150%;
   height: 100%;
-  object-fit: cover;
-  filter: brightness(50%); /* Adds a "gloomy" effect */
+  object-fit: fill;
+  filter: brightness(30%); /* Adds a "gloomy" effect */
 }
 
 /* Style the overlay */
@@ -69,7 +69,7 @@ header.banner .overlay h1 {
 }
 
 header.banner .overlay p {
-  font-size: 1.2rem;
+  font-size: 3.0rem;
   margin: 10px 0 0;
 }
 
