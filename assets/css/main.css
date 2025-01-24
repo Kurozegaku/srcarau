@@ -41,7 +41,7 @@ header.banner {
 /* Style the banner image */
 header.banner img {
   width: 150%;
-  height: 100%;
+  height: 65%;
   object-fit: fill;
   filter: brightness(30%); /* Adds a "gloomy" effect */
 }
@@ -69,7 +69,7 @@ header.banner .overlay h1 {
 }
 
 header.banner .overlay p {
-  font-size: 3.0rem;
+  font-size: 1rem;
   margin: 10px 0 0;
 }
 
