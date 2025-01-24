@@ -40,9 +40,10 @@ header.banner {
 
 /* Style the banner image */
 header.banner img {
+  display: block;
   width: 150%;
-  height: 65%;
-  object-fit: fill;
+  height: 300px;
+  object-fit: cover;
   filter: brightness(30%); /* Adds a "gloomy" effect */
 }
 
