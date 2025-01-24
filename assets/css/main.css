@@ -29,6 +29,49 @@ footer, header, hgroup, menu, nav, section {
 
 body {
   line-height: 1; }
+  
+/* Style the banner container */
+header.banner {
+  position: relative;
+  width: 100%;
+  height: 300px; /* Adjust height as needed */
+  overflow: hidden;
+}
+
+/* Style the banner image */
+header.banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  filter: brightness(50%); /* Adds a "gloomy" effect */
+}
+
+/* Style the overlay */
+header.banner .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Text styling */
+header.banner .overlay h1 {
+  font-size: 2.5rem;
+  margin: 0;
+}
+
+header.banner .overlay p {
+  font-size: 1.2rem;
+  margin: 10px 0 0;
+}
 
 ol, ul {
   list-style: none; }
