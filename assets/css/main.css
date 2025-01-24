@@ -35,7 +35,7 @@ header.banner {
   position: relative;
   width: 100%;
   height: 200px; /* Adjust height as needed */
-  overflow: hidden;
+  overflow: visible;
 }
 
 /* Style the banner image */
